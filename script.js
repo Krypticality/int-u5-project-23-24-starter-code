@@ -32,9 +32,7 @@ submitButton.addEventListener("click", function() {
         imageContainer.appendChild(pics);
         console.log(imageContainer);
         });
-    };
-
-    if (userInput === "action") {
+    } else if (userInput === "action") {
         actionUrls.forEach(function(x) {
             let pics = document.createElement("img");
             console.log(pics);
@@ -42,10 +40,8 @@ submitButton.addEventListener("click", function() {
             console.log(pics);
             imageContainer.appendChild(pics);
             console.log(imageContainer);
-            });
-        };
-    
-        if (userInput === "drama") {
+         });
+        } else if (userInput === "drama") {
             dramaUrls.forEach(function(x) {
                 let pics = document.createElement("img");
                 console.log(pics);
@@ -53,8 +49,8 @@ submitButton.addEventListener("click", function() {
                 console.log(pics);
                 imageContainer.appendChild(pics);
                 console.log(imageContainer);
-                });
-            };
+            });
+         };
 });
 
 
