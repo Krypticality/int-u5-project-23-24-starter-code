@@ -22,6 +22,8 @@ let submitButton = document.querySelector("button");
 
 submitButton.addEventListener("click", function() {
     let userInput = document.querySelector("input").value;
+
+    
     
     if (userInput === "comedy") {
     comedyUrls.forEach(function(x) {
